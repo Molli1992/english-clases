@@ -12,7 +12,7 @@ import {
 } from "react-icons/fa";
 import { LuMail } from "react-icons/lu";
 import { FaRegClock } from "react-icons/fa6";
-import { handleOpenLink, routeGoHome } from "@/utils/utils";
+import { handleOpenLink, RouteGoHome } from "@/utils/utils";
 import Image from "next/image";
 
 export default function Footer() {
@@ -26,7 +26,7 @@ export default function Footer() {
             src={Logo}
             alt="Logo"
             className={styles.logo}
-            onClick={routeGoHome}
+            onClick={RouteGoHome}
           />
 
           <p className={styles.parrafo}>

@@ -7,7 +7,7 @@ import Logo from "@/assets/images/logo.png";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoCloseSharp } from "react-icons/io5";
 import { FaFacebook, FaInstagram, FaTwitter, FaLinkedin } from "react-icons/fa";
-import { routeGoHome, handleOpenLink } from "@/utils/utils";
+import { RouteGoHome, handleOpenLink } from "@/utils/utils";
 import Image from "next/image";
 
 export default function Header() {
@@ -49,7 +49,7 @@ export default function Header() {
           src={Logo}
           alt="Logo"
           className={styles.logo}
-          onClick={routeGoHome}
+          onClick={RouteGoHome}
         />
       </div>
 
@@ -110,7 +110,7 @@ export default function Header() {
               alt="Logo"
               className={styles.logo}
               onClick={() => {
-                routeGoHome();
+                RouteGoHome();
                 handleCloseMenu();
               }}
             />

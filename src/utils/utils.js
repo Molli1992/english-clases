@@ -12,7 +12,7 @@ export const ScrollToTop = () => {
   return null;
 };
 
-export const routeGoHome = () => {
+export const RouteGoHome = () => {
   const router = useRouter();
 
   const goHome = () => {
@@ -22,7 +22,7 @@ export const routeGoHome = () => {
   return { goHome };
 };
 
-export const routeGoAboutUs = () => {
+export const RouteGoAboutUs = () => {
   const router = useRouter();
 
   const goAboutUs = () => {
@@ -32,7 +32,7 @@ export const routeGoAboutUs = () => {
   return { goAboutUs };
 };
 
-export const routeGoServices = () => {
+export const RouteGoServices = () => {
   const router = useRouter();
 
   const goServices = () => {
@@ -42,7 +42,7 @@ export const routeGoServices = () => {
   return { goServices };
 };
 
-export const routeGoContact = () => {
+export const RouteGoContact = () => {
   const router = useRouter();
 
   const goContact = () => {
