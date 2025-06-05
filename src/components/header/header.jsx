@@ -60,7 +60,7 @@ export default function Header() {
             className={styles.link}
             style={{ color: pathname === "/" ? "#274396" : "" }}
           >
-            Home
+            Inicio
           </Link>
 
           <Link
@@ -68,7 +68,7 @@ export default function Header() {
             className={styles.link}
             style={{ color: pathname === "/aboutUs" ? "#274396" : "" }}
           >
-            About Us
+            Nosotros
           </Link>
 
           <Link
@@ -78,7 +78,7 @@ export default function Header() {
               color: pathname === "/services" ? "#274396" : "",
             }}
           >
-            Services
+            Servicios
           </Link>
 
           <Link
@@ -88,7 +88,7 @@ export default function Header() {
               backgroundColor: pathname === "/contact" ? "#274396" : "",
             }}
           >
-            Contact
+            Contacto
           </Link>
         </ul>
 
@@ -129,7 +129,7 @@ export default function Header() {
               style={{ color: pathname === "/" ? "#274396" : "" }}
               onClick={handleCloseMenu}
             >
-              Home
+              Inicio
             </Link>
 
             <Link
@@ -138,7 +138,7 @@ export default function Header() {
               style={{ color: pathname === "/aboutUs" ? "#274396" : "" }}
               onClick={handleCloseMenu}
             >
-              About Us
+              Nosotros
             </Link>
 
             <Link
@@ -149,7 +149,7 @@ export default function Header() {
               }}
               onClick={handleCloseMenu}
             >
-              Services
+              Servicios
             </Link>
 
             <Link
@@ -160,7 +160,7 @@ export default function Header() {
               }}
               onClick={handleCloseMenu}
             >
-              Contact
+              Contacto
             </Link>
 
             <div className={styles.flexContainer}>
