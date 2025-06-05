@@ -1,0 +1,17 @@
+.rowContainer {
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  border-radius: 25px;
+  padding: 10px 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  color: #66cfa9;
+  font-size: 20px;
+}
+
+.text {
+  font-size: 18px;
+  color: #415674;
+  text-transform: uppercase;
+}

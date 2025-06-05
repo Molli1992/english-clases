@@ -8,12 +8,12 @@ import {
   FaInstagram,
   FaWhatsapp,
 } from "react-icons/fa";
-import { TbPointFilled } from "react-icons/tb";
 import { handleOpenLink } from "@/utils/utils";
 import BlueButton from "@/components/buttons/blueButton";
 import Swal from "sweetalert2";
 import { validEmail } from "@/utils/utils";
 import { ClipLoader } from "react-spinners";
+import Title from "@/components/title/title";
 
 export default function ContactForm() {
   const [formData, setFormData] = useState({
@@ -102,12 +102,7 @@ export default function ContactForm() {
     <section className={`${styles.body} padding`}>
       <div className={`${styles.container} width`}>
         <div className={styles.subContainer}>
-          <div className={styles.rowContainer}>
-            <TbPointFilled />
-            <p className={styles.text} style={{ textTransform: "uppercase" }}>
-              contactanos
-            </p>
-          </div>
+          <Title value="contactanos" />
 
           <h1 className={styles.title}>Mantente conectado</h1>
           <p className={styles.text} style={{ maxWidth: "400px" }}>
