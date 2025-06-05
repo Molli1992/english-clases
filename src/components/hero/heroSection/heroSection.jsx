@@ -50,7 +50,7 @@ export default function Hero({ imageUrl, title, description }) {
               WhatsApp
             </button>
             <button
-              onClick={() => handleOpenLink("https://www.instagram.com/")}
+              onClick={() => handleOpenLink("https://www.instagram.com/easy.english.101?igsh=Mnl6OWppbnZ1enNl")}
               className={`${styles.button} ${styles.instagram}`}
             >
               Instagram
