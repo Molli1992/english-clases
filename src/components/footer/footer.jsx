@@ -45,7 +45,7 @@ export default function Footer() {
 
             <div className={styles.socialNetworks}>
               <FaInstagram
-                onClick={() => handleOpenLink("https://www.instagram.com/")}
+                onClick={() => handleOpenLink("https://www.instagram.com/easy.english.101?igsh=Mnl6OWppbnZ1enNl")}
               />
             </div>
 
@@ -107,7 +107,7 @@ export default function Footer() {
 
           <div className={styles.flexContainer}>
             <LuMail className={styles.icons} />
-            <p className={styles.text}>agustina@gmail.com</p>
+            <p className={styles.text}>easy.english.online101@gmail.com</p>
           </div>
 
           <div className={styles.flexContainer}>

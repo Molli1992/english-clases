@@ -170,7 +170,7 @@ export default function Header() {
               />
               <FaInstagram
                 className={styles.socialNetworks}
-                onClick={() => handleOpenLink("https://www.instagram.com/")}
+                onClick={() => handleOpenLink("https://www.instagram.com/easy.english.101?igsh=Mnl6OWppbnZ1enNl")}
               />
               <FaWhatsapp
                 className={styles.socialNetworks}

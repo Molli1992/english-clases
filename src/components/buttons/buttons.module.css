@@ -1,0 +1,12 @@
+.blueButton {
+  width: fit-content;
+  background-color: #4b83fc;
+  color: #ffffff;
+  padding: 15px 20px;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+.blueButton:hover {
+  background-color: #66cfa9;
+}
