@@ -16,6 +16,7 @@ import Image from "next/image";
 
 export default function Footer() {
   const pathname = usePathname();
+  const { goHome } = RouteGoHome();
 
   return (
     <footer className={styles.body}>
@@ -25,7 +26,7 @@ export default function Footer() {
             src={Logo}
             alt="Logo"
             className={styles.logo}
-            onClick={RouteGoHome}
+            onClick={goHome}
           />
 
           <p className={styles.parrafo}>
@@ -45,7 +46,11 @@ export default function Footer() {
 
             <div className={styles.socialNetworks}>
               <FaInstagram
-                onClick={() => handleOpenLink("https://www.instagram.com/easy.english.101?igsh=Mnl6OWppbnZ1enNl")}
+                onClick={() =>
+                  handleOpenLink(
+                    "https://www.instagram.com/easy.english.101?igsh=Mnl6OWppbnZ1enNl"
+                  )
+                }
               />
             </div>
 

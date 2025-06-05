@@ -43,6 +43,22 @@ a {
   max-width: 1200px;
 }
 
+.mainTitle {
+  font-size: 36px;
+  color: #1b2336;
+}
+
+.mainSubTitle {
+  font-size: 24px;
+  color: #1b2336;
+}
+
+.mainText {
+  font-size: 18px;
+  color: #415674;
+  line-height: 25px;
+}
+
 @media (max-width: 650px) {
   .padding {
     padding: 0px 15px;

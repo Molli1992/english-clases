@@ -104,8 +104,8 @@ export default function ContactForm() {
         <div className={styles.subContainer}>
           <Title value="contactanos" />
 
-          <h1 className={styles.title}>Mantente conectado</h1>
-          <p className={styles.text} style={{ maxWidth: "400px" }}>
+          <h1 className="mainTitle">Mantente conectado</h1>
+          <p className="mainText" style={{ maxWidth: "400px" }}>
             Completá el formulario o escribinos directamente. Nos pondremos en
             contacto lo antes posible.
           </p>
@@ -116,8 +116,8 @@ export default function ContactForm() {
             </div>
 
             <div className={styles.columnContainer}>
-              <h2 className={styles.subTitle}>Telefono</h2>
-              <p className={styles.text}>+54 9 11 5038-1626</p>
+              <h2 className="mainSubTitle">Telefono</h2>
+              <p className="mainText">+54 9 11 5038-1626</p>
             </div>
           </div>
 
@@ -127,8 +127,8 @@ export default function ContactForm() {
             </div>
 
             <div className={styles.columnContainer}>
-              <h2 className={styles.subTitle}>Email</h2>
-              <p className={styles.text}>easy.english.online101@gmail.com</p>
+              <h2 className="mainSubTitle">Email</h2>
+              <p className="mainText">easy.english.online101@gmail.com</p>
             </div>
           </div>
 
@@ -160,7 +160,7 @@ export default function ContactForm() {
         </div>
 
         <form className={styles.subContainer}>
-          <h1 className={styles.title}>Dejanos tu mensaje</h1>
+          <h1 className="mainTitle">Dejanos tu mensaje</h1>
 
           <div className={styles.inputContainer}>
             <input

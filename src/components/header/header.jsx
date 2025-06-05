@@ -15,6 +15,7 @@ export default function Header() {
   const [menu, setMenu] = useState(false);
   const [isClosing, setIsClosing] = useState(false);
   const menuRef = useRef(null);
+  const { goHome } = RouteGoHome();
 
   useEffect(() => {
     function handleClickOutside(event) {
@@ -49,7 +50,7 @@ export default function Header() {
           src={Logo}
           alt="Logo"
           className={styles.logo}
-          onClick={RouteGoHome}
+          onClick={goHome}
         />
       </div>
 
@@ -110,7 +111,7 @@ export default function Header() {
               alt="Logo"
               className={styles.logo}
               onClick={() => {
-                RouteGoHome();
+                goHome();
                 handleCloseMenu();
               }}
             />
@@ -166,11 +167,17 @@ export default function Header() {
             <div className={styles.flexContainer}>
               <FaFacebook
                 className={styles.socialNetworks}
-                onClick={() => handleOpenLink("https://www.facebook.com/share/14E6E5Epxdi/")}
+                onClick={() =>
+                  handleOpenLink("https://www.facebook.com/share/14E6E5Epxdi/")
+                }
               />
               <FaInstagram
                 className={styles.socialNetworks}
-                onClick={() => handleOpenLink("https://www.instagram.com/easy.english.101?igsh=Mnl6OWppbnZ1enNl")}
+                onClick={() =>
+                  handleOpenLink(
+                    "https://www.instagram.com/easy.english.101?igsh=Mnl6OWppbnZ1enNl"
+                  )
+                }
               />
               <FaWhatsapp
                 className={styles.socialNetworks}

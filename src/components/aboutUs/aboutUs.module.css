@@ -1,0 +1,28 @@
+.body {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.subContainer {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.img {
+  width: 100%;
+  height: 500px;
+  background-image: url("https://abc-language-institute.com/wp-content/uploads/2022/09/teacher.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
