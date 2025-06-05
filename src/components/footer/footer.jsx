@@ -2,7 +2,7 @@
 import styles from "./footer.module.css";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import Logo from "../../assets/images/logo-white.png";
+import Logo from "@/assets/images/logo-white.png";
 import {
   FaFacebook,
   FaInstagram,
@@ -12,7 +12,7 @@ import {
 } from "react-icons/fa";
 import { LuMail } from "react-icons/lu";
 import { FaRegClock } from "react-icons/fa6";
-import { handleOpenLink, routeGoHome } from "../../utils/utils";
+import { handleOpenLink, routeGoHome } from "@/utils/utils";
 import Image from "next/image";
 
 export default function Footer() {

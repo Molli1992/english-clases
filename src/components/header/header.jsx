@@ -3,11 +3,11 @@ import { useState, useEffect, useRef } from "react";
 import { usePathname } from "next/navigation";
 import styles from "./header.module.css";
 import Link from "next/link";
-import Logo from "../../assets/images/logo.png";
+import Logo from "@/assets/images/logo.png";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoCloseSharp } from "react-icons/io5";
 import { FaFacebook, FaInstagram, FaTwitter, FaLinkedin } from "react-icons/fa";
-import { routeGoHome, handleOpenLink } from "../../utils/utils";
+import { routeGoHome, handleOpenLink } from "@/utils/utils";
 import Image from "next/image";
 
 export default function Header() {
