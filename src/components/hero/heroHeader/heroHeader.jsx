@@ -12,7 +12,7 @@ export default function HeroHeader({ route }) {
   }, []);
 
   return (
-    <div className={styles.body}>
+    <section className={`${styles.body} padding`}>
       {show && (
         <>
           <motion.div
@@ -37,6 +37,6 @@ export default function HeroHeader({ route }) {
           </motion.div>
         </>
       )}
-    </div>
+    </section>
   );
 }

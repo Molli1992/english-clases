@@ -7,7 +7,6 @@
 button {
   cursor: pointer;
   border: none;
-  outline: none;
 }
 
 input {
@@ -32,4 +31,14 @@ a {
   flex-direction: column;
   padding: 100px 0px;
   gap: 100px;
+}
+
+.padding {
+  padding: 0px 25px;
+}
+
+@media (max-width: 650px) {
+  .padding {
+    padding: 0px 15px;
+  }
 }

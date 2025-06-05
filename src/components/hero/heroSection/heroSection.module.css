@@ -1,0 +1,85 @@
+.heroSection {
+  width: 100%;
+  height: calc(90vh - 100px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.heroContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  color: #ffffff;
+  gap: 30px;
+}
+
+.title {
+  font-size: 60px;
+}
+
+.description {
+  width: 100%;
+  max-width: 650px;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.heroButtons {
+  display: flex;
+  gap: 25px;
+}
+
+.button {
+  color: #ffffff;
+  padding: 15px;
+  font-size: 22px;
+  border-radius: 10px;
+  text-decoration: none;
+  display: inline-block;
+  border: 1px solid transparent;
+  transition: background-color 0.8s ease, border-color 0.8s ease;
+}
+
+.whatsapp {
+  background-color: #25d366;
+}
+
+.whatsapp:hover {
+  background-color: transparent;
+  border-color: #25d366;
+}
+
+.instagram {
+  background-color: #833ab4;
+}
+
+.instagram:hover {
+  background-color: transparent;
+  border-color: #833ab4;
+}
+
+@media (max-width: 750px) {
+  .title {
+    font-size: 50px;
+  }
+
+  .description {
+    font-size: 18px;
+  }
+
+  .button {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 450px) {
+  .title {
+    font-size: 46px;
+  }
+}
