@@ -1,0 +1,14 @@
+.body {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.separator {
+  width: 50px;
+  height: 2px;
+  background-color: #4b83fc;
+  border-radius: 5px;
+}

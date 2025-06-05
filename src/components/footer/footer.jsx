@@ -78,7 +78,7 @@ export default function Footer() {
             className={styles.link}
             style={{ color: pathname === "/aboutUs" ? "#bac4e1" : "" }}
           >
-            Nosotros
+            Quién soy
           </Link>
 
           <Link

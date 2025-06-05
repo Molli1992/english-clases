@@ -10,7 +10,7 @@ export default function AboutUs() {
   const { goContact } = RouteGoContact();
 
   return (
-    <div className={`${styles.body} padding`}>
+    <section className={`${styles.body} padding`}>
       <div className={`${styles.container} width`}>
         <div className={styles.subContainer} style={{ alignItems: "center" }}>
           <Image src={TeacherImg} alt="Sobre mi" className={styles.img} />
@@ -30,6 +30,6 @@ export default function AboutUs() {
           <BlueButton value="Contactame" onClick={goContact} />
         </div>
       </div>
-    </div>
+    </section>
   );
 }

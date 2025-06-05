@@ -46,12 +46,7 @@ export default function Header() {
   return (
     <header className={styles.header}>
       <div className={`${styles.container} ${styles.logoContainer}`}>
-        <Image
-          src={Logo}
-          alt="Logo"
-          className={styles.logo}
-          onClick={goHome}
-        />
+        <Image src={Logo} alt="Logo" className={styles.logo} onClick={goHome} />
       </div>
 
       <nav className={styles.container}>
@@ -69,7 +64,7 @@ export default function Header() {
             className={styles.link}
             style={{ color: pathname === "/aboutUs" ? "#274396" : "" }}
           >
-            Nosotros
+            Quién soy
           </Link>
 
           <Link
@@ -139,7 +134,7 @@ export default function Header() {
               style={{ color: pathname === "/aboutUs" ? "#274396" : "" }}
               onClick={handleCloseMenu}
             >
-              Nosotros
+              Quién soy
             </Link>
 
             <Link
