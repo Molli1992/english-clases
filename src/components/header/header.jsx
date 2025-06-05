@@ -6,7 +6,7 @@ import Link from "next/link";
 import Logo from "@/assets/images/logo.png";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoCloseSharp } from "react-icons/io5";
-import { FaFacebook, FaInstagram, FaTwitter, FaLinkedin } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaWhatsapp } from "react-icons/fa";
 import { RouteGoHome, handleOpenLink } from "@/utils/utils";
 import Image from "next/image";
 
@@ -166,19 +166,15 @@ export default function Header() {
             <div className={styles.flexContainer}>
               <FaFacebook
                 className={styles.socialNetworks}
-                onClick={() => handleOpenLink("https://www.facebook.com/")}
+                onClick={() => handleOpenLink("https://www.facebook.com/share/14E6E5Epxdi/")}
               />
               <FaInstagram
                 className={styles.socialNetworks}
                 onClick={() => handleOpenLink("https://www.instagram.com/")}
               />
-              <FaTwitter
+              <FaWhatsapp
                 className={styles.socialNetworks}
-                onClick={() => handleOpenLink("https://x.com/")}
-              />
-              <FaLinkedin
-                className={styles.socialNetworks}
-                onClick={() => handleOpenLink("https://www.linkedin.com/")}
+                onClick={() => handleOpenLink("https://wa.me/5491150381626")}
               />
             </div>
           </ul>

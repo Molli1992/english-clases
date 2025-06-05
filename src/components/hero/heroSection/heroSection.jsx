@@ -44,7 +44,7 @@ export default function Hero({ imageUrl, title, description }) {
             transition={{ duration: 0.6, delay: 0.4 }}
           >
             <button
-              onClick={() => handleOpenLink("https://www.whatsapp.com/")}
+              onClick={() => handleOpenLink("https://wa.me/5491150381626")}
               className={`${styles.button} ${styles.whatsapp}`}
             >
               WhatsApp

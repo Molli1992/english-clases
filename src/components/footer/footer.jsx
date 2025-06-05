@@ -6,8 +6,7 @@ import Logo from "@/assets/images/logo-white.png";
 import {
   FaFacebook,
   FaInstagram,
-  FaTwitter,
-  FaLinkedin,
+  FaWhatsapp,
   FaPhoneAlt,
 } from "react-icons/fa";
 import { LuMail } from "react-icons/lu";
@@ -38,7 +37,9 @@ export default function Footer() {
           <div className={styles.flexContainer}>
             <div className={styles.socialNetworks}>
               <FaFacebook
-                onClick={() => handleOpenLink("https://www.facebook.com/")}
+                onClick={() =>
+                  handleOpenLink("https://www.facebook.com/share/14E6E5Epxdi/")
+                }
               />
             </div>
 
@@ -49,12 +50,8 @@ export default function Footer() {
             </div>
 
             <div className={styles.socialNetworks}>
-              <FaTwitter onClick={() => handleOpenLink("https://x.com/")} />
-            </div>
-
-            <div className={styles.socialNetworks}>
-              <FaLinkedin
-                onClick={() => handleOpenLink("https://www.linkedin.com/")}
+              <FaWhatsapp
+                onClick={() => handleOpenLink("https://wa.me/5491150381626")}
               />
             </div>
           </div>
@@ -115,7 +112,7 @@ export default function Footer() {
 
           <div className={styles.flexContainer}>
             <FaRegClock className={styles.icons} />
-            <p className={styles.text}>Office Hours: 10AM - 6PM</p>
+            <p className={styles.text}>Horario de Atencion: 9AM - 8PM</p>
           </div>
         </div>
       </div>
