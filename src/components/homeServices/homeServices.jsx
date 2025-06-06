@@ -12,17 +12,17 @@ export default function HomeServices() {
   return (
     <section className={`${styles.body} padding`}>
       <div className={`${styles.container} width`}>
-        <Title value="servicios" />
-        <h1 className="mainTitle">Mis servicios</h1>
-        <p className="mainText" style={{ maxWidth: "400px" }}>
-          Ofrezco clases de inglés personalizadas para ayudarte a mejorar tu
-          fluidez, ganar confianza al hablar y alcanzar tus metas personales o
-          profesionales.
-        </p>
-
-        <div className={styles.buttonContainer}>
-          <BlueButton value="Ver mas Servicios" onClick={goServices} />
+        <div className={styles.columnContainer}>
+          <Title value="servicios" />
+          <h1 className="mainTitle">Mis servicios</h1>
+          <p className="mainText" style={{ maxWidth: "400px" }}>
+            Ofrezco clases de inglés personalizadas para ayudarte a mejorar tu
+            fluidez, ganar confianza al hablar y alcanzar tus metas personales o
+            profesionales.
+          </p>
         </div>
+
+        <BlueButton value="Ver mas Servicios" onClick={goServices} />
       </div>
 
       <div className={styles.gridContainer}>
