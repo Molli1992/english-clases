@@ -1,0 +1,130 @@
+.body {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 25px;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  gap: 50px;
+}
+
+.subContainer {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.flexContainer {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.text {
+  font-size: 20px;
+  color: #3e4c76;
+}
+
+.icon {
+  font-size: 28px;
+  color: #1b2336;
+}
+
+.imgContainer {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imgSubContainer {
+  position: relative;
+  height: 400px;
+  width: 400px;
+}
+
+.img {
+  height: 100%;
+  width: 100%;
+  background-color: #3e4c76;
+  padding: 5px;
+  border-radius: 50%;
+  transition: transform 0.4s ease-in-out;
+}
+
+.img:hover {
+  transform: scale(1.05);
+}
+
+.circle {
+  width: 150px;
+  height: 150px;
+  background-color: #bac4e1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 50%;
+  gap: 5px;
+  position: absolute;
+  left: 10px;
+  bottom: -10px;
+}
+
+.circleTitle {
+  font-size: 32px;
+}
+
+.circleText {
+  font-size: 16px;
+}
+
+@media (max-width: 900px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .subContainer {
+    width: 100%;
+  }
+
+  .imgContainer {
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .body {
+    padding: 0px 15px;
+  }
+}
+
+@media (max-width: 450px) {
+  .imgSubContainer {
+    width: 100%;
+  }
+
+  .img {
+    height: auto;
+  }
+
+  .circle {
+    left: 10px;
+    bottom: 0px;
+  }
+}
+
+@media (max-width: 400px) {
+  .circle {
+    left: 0px;
+    bottom: 30px;
+  }
+}
