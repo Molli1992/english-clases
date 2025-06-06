@@ -15,9 +15,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Clases de Inglés Online | Profesora Argentina",
+  title: "Clases de Inglés Online",
   description:
-    "Aprendé inglés con una profesora argentina con experiencia. Clases online personalizadas para todos los niveles. ¡Contactate y comenzá hoy!",
+    "Flexibles, personalizadas y para todos los niveles. ¡Contactate ahora!",
   keywords: [
     "clases de inglés",
     "profesora de inglés",
@@ -30,24 +30,24 @@ export const metadata: Metadata = {
   ],
   authors: [
     {
-      name: "Nombre de la Profesora",
+      name: "Agustina",
       url: "https://english-clases.netlify.app/",
     },
   ],
-  creator: "Nombre de la Profesora",
+  creator: "Agustina",
   metadataBase: new URL("https://english-clases.netlify.app/"),
   openGraph: {
-    title: "Clases de Inglés Online | Profesora Argentina",
+    title: "Clases de Inglés Online",
     description:
-      "Clases online de inglés con una profesora argentina. Flexibles, personalizadas y para todos los niveles. ¡Reservá tu clase ahora!",
+      "Flexibles, personalizadas y para todos los niveles. ¡Contactate ahora!",
     url: "https://english-clases.netlify.app/",
-    siteName: "Inglés Online con [Nombre]",
+    siteName: "Easy English Online",
     images: [
       {
         url: "https://wgl-dsites.net/unicoach/wp-content/uploads/2020/10/logo-B.png",
         width: 1200,
         height: 630,
-        alt: "Clases de inglés online con profesora argentina",
+        alt: "Logo",
       },
     ],
     locale: "es_AR",
@@ -55,9 +55,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Clases de Inglés Online | Profesora Argentina",
+    title: "Clases de Inglés Online",
     description:
-      "Aprendé inglés desde casa con una profesora argentina. Clases online a tu medida. ¡Contactate ahora!",
+      "Flexibles, personalizadas y para todos los niveles. ¡Contactate ahora!",
     images: [
       "https://wgl-dsites.net/unicoach/wp-content/uploads/2020/10/logo-B.png",
     ],
