@@ -1,4 +1,6 @@
 import HeroSection from "@/components/hero/heroSection/heroSection";
+import ContactForm from "@/components/contact/contactForm";
+import Reviews from "@/components/reviews/reviews";
 
 export default function HomePage() {
   return (
@@ -8,6 +10,10 @@ export default function HomePage() {
         title="Aprenda inglés de calidad en línea"
         description="Unicoach es un servicio eficaz para aprender idiomas. ¡Pruébalo antes de comprarlo! Reserva una sesión de prueba gratuita de 30 minutos."
       />
+
+      <Reviews />
+
+      <ContactForm />
     </main>
   );
 }

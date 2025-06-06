@@ -1,0 +1,15 @@
+.bodyCard {
+  width: 100%;
+  max-width: 750px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.role {
+  font-size: 16px;
+  color: #3e4c76;
+}
