@@ -6,19 +6,19 @@ export const dataFeatures = [
   {
     id: 1,
     img: imgFeatures1,
-    title: "Equilibrio laboral",
-    desc: "Coaching para ti si quieres armonía en tu vida y estás dispuesto a trabajar.",
+    title: "Clases personalizadas",
+    desc: "Lecciones adaptadas a tu nivel, ritmo y objetivos para que aprendas con confianza.",
   },
   {
     id: 2,
     img: imgFeatures2,
-    title: "Consultoría de carrera",
-    desc: "Coaching para ti si quieres armonía en tu vida y estás dispuesto a trabajar.",
+    title: "Enfoque comunicativo",
+    desc: "Aprende a expresarte con soltura en situaciones reales desde el primer día.",
   },
   {
     id: 3,
     img: imgFeatures3,
-    title: "Toma de decisiones",
-    desc: "Coaching para ti si quieres armonía en tu vida y estás dispuesto a trabajar.",
+    title: "Progreso medible",
+    desc: "Seguimiento constante para que veas tus avances y mantengas tu motivación activa.",
   },
 ];
