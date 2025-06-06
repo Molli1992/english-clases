@@ -3,7 +3,7 @@ import { useState, useEffect, useRef } from "react";
 import { usePathname } from "next/navigation";
 import styles from "./header.module.css";
 import Link from "next/link";
-import Logo from "@/assets/images/logo.png";
+import Logo from "@/assets/logo/logo.png";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoCloseSharp } from "react-icons/io5";
 import { FaFacebook, FaInstagram, FaWhatsapp } from "react-icons/fa";

@@ -1,0 +1,19 @@
+.body {
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+  text-align: center;
+}
+
+.img {
+  background-color: #ffffff;
+  padding: 10px;
+  border: 6px solid #66cfa9;
+  border-radius: 50%;
+  height: 220px;
+  width: 220px;
+}

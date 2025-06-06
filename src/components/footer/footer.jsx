@@ -2,7 +2,7 @@
 import styles from "./footer.module.css";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import Logo from "@/assets/images/logo-white.png";
+import Logo from "@/assets/logo/logo-white.png";
 import {
   FaFacebook,
   FaInstagram,
