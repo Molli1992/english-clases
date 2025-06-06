@@ -1,0 +1,25 @@
+.body {
+  width: 100%;
+  max-width: 350px;
+  height: 375px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 25px;
+  background-color: #f2f2f2;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.icon {
+  color: #4b83fc;
+  background-color: #bac4e1;
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 36px;
+}
