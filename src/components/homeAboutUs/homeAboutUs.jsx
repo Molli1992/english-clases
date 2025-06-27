@@ -1,8 +1,6 @@
 import styles from "./homeAboutUs.module.css";
 import Title from "../title/title";
-import imgAbout from "../../assets/images/home-about.png";
 import { FaRegCircleCheck } from "react-icons/fa6";
-import Image from "next/image";
 
 export default function HomeAboutUs() {
   return (
@@ -47,8 +45,8 @@ export default function HomeAboutUs() {
         </div>
 
         <div className={styles.imgContainer}>
-          <div className={styles.imgSubContainer}>
-            <Image src={imgAbout} alt="Sobre mi" className={styles.img} />
+          <div className={styles.imgSubContainer}>       
+            <div className={styles.img} />
             <div className={styles.circle}>
               <h1 className={styles.circleTitle}>10+</h1>
               <p className={styles.circleText}>YEARS OF EXPERIENCIE</p>

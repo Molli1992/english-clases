@@ -50,12 +50,15 @@
 }
 
 .img {
+  background-image: url("../../assets/images/img-cafe.jpg");
+  background-position: left;
+  background-size: cover;
+  background-repeat: no-repeat;
   height: 100%;
   width: 100%;
-  background-color: #3e4c76;
-  padding: 5px;
   border-radius: 50%;
   transition: transform 0.4s ease-in-out;
+  border: 5px solid #3e4c76;
 }
 
 .img:hover {
@@ -109,22 +112,22 @@
 
 @media (max-width: 450px) {
   .imgSubContainer {
-    width: 100%;
+    height: 325px;
+    width: 325px;
   }
 
-  .img {
-    height: auto;
-  }
-
-  .circle {
-    left: 10px;
-    bottom: 0px;
-  }
-}
-
-@media (max-width: 400px) {
   .circle {
     left: 0px;
-    bottom: 30px;
+    bottom: -10px;
+    width: 125px;
+    height: 125px;
+  }
+
+  .circleTitle {
+    font-size: 28px;
+  }
+
+  .circleText {
+    font-size: 14px;
   }
 }

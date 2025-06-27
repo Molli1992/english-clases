@@ -3,10 +3,15 @@ import { useState, useEffect, useRef } from "react";
 import { usePathname } from "next/navigation";
 import styles from "./header.module.css";
 import Link from "next/link";
-import Logo from "@/assets/logo/logo.png";
+import Logo from "@/assets/logo/logo-sin-fondo.png";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoCloseSharp } from "react-icons/io5";
-import { FaFacebook, FaInstagram, FaWhatsapp } from "react-icons/fa";
+import {
+  FaFacebook,
+  FaInstagram,
+  FaWhatsapp,
+  FaLinkedin,
+} from "react-icons/fa";
 import { RouteGoHome, handleOpenLink } from "@/utils/utils";
 import Image from "next/image";
 
@@ -47,6 +52,7 @@ export default function Header() {
     <header className={styles.header}>
       <div className={`${styles.container} ${styles.logoContainer}`}>
         <Image src={Logo} alt="Logo" className={styles.logo} onClick={goHome} />
+        <h1 className={styles.logoTitle}>Easy English 101</h1>
       </div>
 
       <nav className={styles.container}>
@@ -177,6 +183,10 @@ export default function Header() {
               <FaWhatsapp
                 className={styles.socialNetworks}
                 onClick={() => handleOpenLink("https://wa.me/5491150381626")}
+              />
+              <FaLinkedin
+                className={styles.socialNetworks}
+                onClick={() => handleOpenLink("https://www.linkedin.com/in/agustina-sartori-956b6b26b/")}
               />
             </div>
           </ul>

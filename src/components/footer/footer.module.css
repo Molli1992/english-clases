@@ -45,10 +45,20 @@
   color: #000000;
 }
 
+.logoContainer {
+  display: flex;
+  align-items: center;
+}
+
 .logo {
   width: 141px;
-  height: 25px;
+  height: 120px;
   cursor: pointer;
+}
+
+.logoTitle {
+  color: #ffffff;
+  font-size: 24px;
 }
 
 .text {
@@ -82,22 +92,15 @@
   color: #bac4e1;
 }
 
-@media (max-width: 850px) {
+@media (max-width: 900px) {
   .footer {
-    grid-template-columns: 1fr 1fr;
-    justify-items: flex-end;
+    grid-template-columns: 1fr;
+    justify-items: start;
     gap: 50px;
   }
 
   .container {
     width: 100%;
-    max-width: 300px;
-  }
-}
-
-@media (max-width: 680px) {
-  .footer {
-    grid-template-columns: 1fr;
-    justify-items: start;
+    max-width: 350px;
   }
 }

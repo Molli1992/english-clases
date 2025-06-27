@@ -4,7 +4,6 @@
   left: 0;
   width: 100%;
   padding: 15px;
-  height: 100px;
   display: flex;
   background: #ffffff;
   z-index: 999;
@@ -20,8 +19,13 @@
 
 .logo {
   width: 141px;
-  height: 25px;
+  height: 120px;
   cursor: pointer;
+}
+
+.logoTitle {
+  color: #d82027;
+  font-size: 24px;
 }
 
 .list {
@@ -165,7 +169,16 @@
   }
 }
 
-@media (max-width: 750px) {
+@media (max-width: 800px) {
+  .container {
+    width: fit-content;
+  }
+
+  .logoContainer {
+    width: 100%;
+    margin-right: 10px;
+  }
+
   .list {
     display: none;
   }
@@ -184,5 +197,11 @@
 
   .menu.hide {
     display: flex;
+  }
+}
+
+@media (max-width: 450px) {
+  .logoTitle {
+    font-size: 20px;
   }
 }

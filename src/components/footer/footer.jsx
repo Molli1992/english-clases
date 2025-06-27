@@ -2,12 +2,13 @@
 import styles from "./footer.module.css";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import Logo from "@/assets/logo/logo-white.png";
+import Logo from "@/assets/logo/logo-sin-fondo.png";
 import {
   FaFacebook,
   FaInstagram,
   FaWhatsapp,
   FaPhoneAlt,
+  FaLinkedin,
 } from "react-icons/fa";
 import { LuMail } from "react-icons/lu";
 import { FaRegClock } from "react-icons/fa6";
@@ -22,12 +23,16 @@ export default function Footer() {
     <footer className={styles.body}>
       <div className={styles.footer}>
         <div className={styles.container}>
-          <Image
-            src={Logo}
-            alt="Logo"
-            className={styles.logo}
-            onClick={goHome}
-          />
+          <div className={styles.logoContainer}>
+            <Image
+              src={Logo}
+              alt="Logo"
+              className={styles.logo}
+              onClick={goHome}
+            />
+
+            <h1 className={styles.logoTitle}>Easy English 101</h1>
+          </div>
 
           <p className={styles.parrafo}>
             Al conectar a estudiantes de todo el mundo con los mejores
@@ -57,6 +62,16 @@ export default function Footer() {
             <div className={styles.socialNetworks}>
               <FaWhatsapp
                 onClick={() => handleOpenLink("https://wa.me/5491150381626")}
+              />
+            </div>
+
+            <div className={styles.socialNetworks}>
+              <FaLinkedin
+                onClick={() =>
+                  handleOpenLink(
+                    "https://www.linkedin.com/in/agustina-sartori-956b6b26b/"
+                  )
+                }
               />
             </div>
           </div>

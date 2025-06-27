@@ -7,6 +7,7 @@ import {
   FaFacebook,
   FaInstagram,
   FaWhatsapp,
+  FaLinkedin
 } from "react-icons/fa";
 import { handleOpenLink } from "@/utils/utils";
 import BlueButton from "@/components/buttons/blueButton";
@@ -154,6 +155,12 @@ export default function ContactForm() {
             <div className={styles.socialNetworks}>
               <FaWhatsapp
                 onClick={() => handleOpenLink("https://wa.me/5491150381626")}
+              />
+            </div>
+
+            <div className={styles.socialNetworks}>
+              <FaLinkedin
+                onClick={() => handleOpenLink("https://www.linkedin.com/in/agustina-sartori-956b6b26b/")}
               />
             </div>
           </div>
