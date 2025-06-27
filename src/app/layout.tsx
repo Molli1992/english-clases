@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     siteName: "Easy English Online",
     images: [
       {
-        url: "https://wgl-dsites.net/unicoach/wp-content/uploads/2020/10/logo-B.png",
+        url: "",
         width: 1200,
         height: 630,
         alt: "Logo",
@@ -59,7 +59,7 @@ export const metadata: Metadata = {
     description:
       "Flexibles, personalizadas y para todos los niveles. ¡Contactate ahora!",
     images: [
-      "https://wgl-dsites.net/unicoach/wp-content/uploads/2020/10/logo-B.png",
+      "",
     ],
   },
 };
