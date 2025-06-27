@@ -11,12 +11,8 @@ export default function Hero({ imageUrl, title, description }) {
     setShow(true);
   }, []);
 
-  const backgroundStyle = {
-    backgroundImage: `linear-gradient(to bottom, rgba(25, 25, 70, 0.4), rgba(25, 25, 70, 0.4)), url('${imageUrl}')`,
-  };
-
   return (
-    <section className={styles.heroSection} style={backgroundStyle}>
+    <section className={styles.heroSection}>
       {show && (
         <div className={`${styles.heroContent} padding`}>
           <motion.h1
@@ -50,7 +46,11 @@ export default function Hero({ imageUrl, title, description }) {
               WhatsApp
             </button>
             <button
-              onClick={() => handleOpenLink("https://www.instagram.com/easy.english.101?igsh=Mnl6OWppbnZ1enNl")}
+              onClick={() =>
+                handleOpenLink(
+                  "https://www.instagram.com/easy.english.101?igsh=Mnl6OWppbnZ1enNl"
+                )
+              }
               className={`${styles.button} ${styles.instagram}`}
             >
               Instagram

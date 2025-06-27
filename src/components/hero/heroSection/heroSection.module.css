@@ -4,6 +4,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  background-image: url("../../../assets/images/hero-section-dektop.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -75,6 +76,12 @@
 
   .button {
     font-size: 20px;
+  }
+}
+
+@media (max-width: 700px) {
+  .heroSection {
+    background-image: url("../../../assets/images/hero-section-mobile.jpg");
   }
 }
 
