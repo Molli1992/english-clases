@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import styles from "./heroSection.module.css";
 import { handleOpenLink } from "@/utils/utils";
 
-export default function Hero({ imageUrl, title, description }) {
+export default function Hero() {
   const [show, setShow] = useState(false);
 
   useEffect(() => {
@@ -21,7 +21,7 @@ export default function Hero({ imageUrl, title, description }) {
             transition={{ duration: 0.6 }}
             className={styles.title}
           >
-            {title}
+            Aprenda inglés de calidad en línea
           </motion.h1>
 
           <motion.p
@@ -30,7 +30,9 @@ export default function Hero({ imageUrl, title, description }) {
             animate={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.6, delay: 0.2 }}
           >
-            {description}
+            Easy English Online, un servicio eficaz para aprender idiomas.
+            ¡Envía tu consulta por whatsapp o mail y comienza tu camino hacia un
+            futuro internacional!
           </motion.p>
 
           <motion.div
