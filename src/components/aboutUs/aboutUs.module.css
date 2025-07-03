@@ -21,19 +21,26 @@
 .img {
   width: 100%;
   max-width: 700px;
-  height: auto;
-  min-height: 400px;
+  height: 600px;
+  background-image: url("../../assets/images/imagen-perfil-2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 @media (max-width: 1100px) {
   .container {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
 
   .img {
-    width: 100%;
-    max-width: 700px;
-    height: auto;
-    min-height: 300px;
+    max-width: 600px;
+  }
+}
+
+@media (max-width: 600px) {
+  .img {
+    height: 450px;
+    max-width: 400px;
   }
 }

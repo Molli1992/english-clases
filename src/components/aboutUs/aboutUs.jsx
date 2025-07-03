@@ -4,7 +4,7 @@ import Title from "@/components/title/title";
 import BlueButton from "@/components/buttons/blueButton";
 import { RouteGoContact } from "@/utils/utils";
 import Image from "next/image";
-import TeacherImg from "@/assets/images/teacher.jpg";
+import TeacherImg from "@/assets/images/profile-img.jpg";
 
 export default function AboutUs() {
   const { goContact } = RouteGoContact();
@@ -13,7 +13,7 @@ export default function AboutUs() {
     <section className={`${styles.body} padding`}>
       <div className={`${styles.container} width`}>
         <div className={styles.subContainer} style={{ alignItems: "center" }}>
-          <Image src={TeacherImg} alt="Sobre mi" className={styles.img} />
+          <div className={styles.img} />
         </div>
 
         <div className={styles.subContainer}>
@@ -26,6 +26,15 @@ export default function AboutUs() {
             comunicación real. Aprender inglés puede ser sencillo y motivador
             cuando contás con el acompañamiento adecuado. ¡Estoy acá para
             ayudarte a lograrlo!
+          </p>
+          <p className="mainText">
+            También ofrezco preparación en Inglés para Fines Específicos (ESP),
+            incluyendo inglés técnico, académico y profesional. Ya sea que
+            necesites rendir un examen, mejorar tu comunicación en el trabajo, o
+            aplicar el idioma en áreas como programación, medicina o negocios,
+            diseño clases adaptadas a tus necesidades reales. Mi enfoque es
+            práctico, claro y orientado a resultados concretos. Aprender inglés
+            con un propósito te abre puertas.
           </p>
           <BlueButton value="Contactame" onClick={goContact} />
         </div>
