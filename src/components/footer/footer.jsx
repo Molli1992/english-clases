@@ -127,7 +127,9 @@ export default function Footer() {
 
           <div className={styles.flexContainer}>
             <LuMail className={styles.icons} />
-            <p className={styles.text}>easy.english.online101@gmail.com</p>
+            <p className={styles.text} style={{ wordBreak: "break-all" }}>
+              easy.english.online101@gmail.com
+            </p>
           </div>
 
           <div className={styles.flexContainer}>

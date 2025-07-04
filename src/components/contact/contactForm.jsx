@@ -7,7 +7,7 @@ import {
   FaFacebook,
   FaInstagram,
   FaWhatsapp,
-  FaLinkedin
+  FaLinkedin,
 } from "react-icons/fa";
 import { handleOpenLink } from "@/utils/utils";
 import BlueButton from "@/components/buttons/blueButton";
@@ -129,7 +129,9 @@ export default function ContactForm() {
 
             <div className={styles.columnContainer}>
               <h2 className="mainSubTitle">Email</h2>
-              <p className="mainText">easy.english.online101@gmail.com</p>
+              <p className="mainText" style={{ wordBreak: "break-all" }}>
+                easy.english.online101@gmail.com
+              </p>
             </div>
           </div>
 
@@ -160,7 +162,11 @@ export default function ContactForm() {
 
             <div className={styles.socialNetworks}>
               <FaLinkedin
-                onClick={() => handleOpenLink("https://www.linkedin.com/in/agustina-sartori-956b6b26b/")}
+                onClick={() =>
+                  handleOpenLink(
+                    "https://www.linkedin.com/in/agustina-sartori-956b6b26b/"
+                  )
+                }
               />
             </div>
           </div>
